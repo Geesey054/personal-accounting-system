@@ -12,7 +12,7 @@
         <thead class="table-light">
             <tr>
                 <th>Account Type</th>
-                <th class="text-end">Total (Debit + Credit)</th>
+                <th class="text-end">Total</th>
             </tr>
         </thead>
         <tbody>
