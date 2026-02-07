@@ -1,0 +1,10 @@
+# CodeIgniter
+writable/
+.env
+/vendor/
+node_modules/
+
+# OS or IDE files
+.DS_Store
+Thumbs.db
+*.log
