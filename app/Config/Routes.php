@@ -45,6 +45,14 @@ $routes->group('', ['filter' => 'auth'], function ($routes) {
     $routes->post('Expense-accounting', 'ExpenseAccounting::index');
     $routes->post('ExpenseAccounting/save', 'ExpenseAccounting::save');
 
+     $routes->get('revenue', 'ExpenseAccounting::index');
+    $routes->post('revenue', 'ExpenseAccounting::index');
+    $routes->post('ExpenseAccounting/save', 'ExpenseAccounting::save');
+    $routes->post('ExpenseAccounting/save', 'ExpenseAccounting::save');
+    
+
+
+
     // Account Statement
     $routes->get('account-statement', 'AccountStatement::index');
     $routes->get('account-statement/(:num)', 'AccountStatement::index/$1');
