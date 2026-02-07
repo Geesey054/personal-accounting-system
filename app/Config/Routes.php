@@ -49,7 +49,8 @@ $routes->group('', ['filter' => 'auth'], function ($routes) {
       $routes->post('revenue', 'ExpenseAccounting::index');
       $routes->post('ExpenseAccounting/save', 'ExpenseAccounting::save');
    
-     
+     $routes->get('account-group-summary', 'AccountGroupSummary::index');
+
 
     // Account Statement
     $routes->get('account-statement', 'AccountStatement::index');
