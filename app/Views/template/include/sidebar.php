@@ -50,6 +50,12 @@
                                 <span class="pcoded-mtext">Account Balance</span>
                             </a>
                         </li>
+                        </li>
+                                <li class="nav-item">
+                            <a href="<?= base_url('account-group-summary') ?>" class="nav-link">
+                                <span class="pcoded-mtext">Account Group Summery</span>
+                            </a>
+                        </li>
                     </ul>
                 </li>
 

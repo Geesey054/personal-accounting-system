@@ -15,6 +15,8 @@ class AccountGroupSummary extends BaseController
     public function index()
     {
         $data['summary'] = $this->model->getGroupTotals();
-        return view('account_group_summary', $data);
+        return view('template/include/header').
+        view('account_group_summary', $data).
+        view('template/include/footer');
     }
 }
